@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
-import "../globals.css";
+import "./globals.css";
 
 const Aeonik = localFont({
   src: [
@@ -38,13 +38,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body
-        style={{ backgroundImage: "url('/nois.png')" }}
-        className={`${Aeonik.className} `}
-      >
-        {children}
-      </body>
+    <html lang="en" className="h-full">
+      <body className={`${Aeonik.className}  w-full h-full `}>{children}</body>
     </html>
   );
 }

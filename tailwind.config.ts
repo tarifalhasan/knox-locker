@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     container: {
       center: true,
-      padding: "2rem",
+      padding: "1.2rem",
       screens: {
         "2xl": "1327px",
       },
@@ -20,9 +20,12 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         "hero-bg": `url("/hero-bg.png")`,
+        "hero-mobile-bg": `url("/hero background-mobile.png")`,
         "features-bg": `url("/features-bg.png")`,
         "benefits-bg": `url("/benefits-bg.png")`,
         "tokenomics-bg": `url("/tokenomics.png")`,
+        "team-bg": `url("/team.png")`,
+        "main-bg": `url("/noise.png")`,
       },
       colors: {
         border: "hsl(var(--border))",
@@ -71,6 +74,7 @@ const config: Config = {
           yellow: "#FFCD1D",
           danger: "#F44336",
           black: "#161518",
+          footer: "#161518",
         },
       },
       fontSize: {
@@ -80,6 +84,8 @@ const config: Config = {
         "t-20": "20px",
         "t-24": "24px",
         "t-34": "34px",
+        "t-36": "36px",
+        "t-48": "48px",
         "t-60": "60px",
       },
       boxShadow: {
