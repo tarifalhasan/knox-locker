@@ -1,12 +1,19 @@
-import { relume } from "@/assets/images";
+import relume from "@/assets/icons/Relume.svg";
 import Image from "next/image";
 
 const Tokenomics = () => {
   const ContenCard = () => (
-    <div>
+    <div className="">
       <div className="flex justify-center">
         <Image src={relume} alt="sds" />
       </div>
+      <h3 className="text-center lg:max-w-[240px] w-full  text-2xl font-bold text-white">
+        Short heading goes here
+      </h3>
+      <p className="text-center lg:max-w-[240px] w-full  text-base font-normal text-white">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+        varius enim in eros.
+      </p>
     </div>
   );
 
@@ -27,12 +34,12 @@ const Tokenomics = () => {
             vitae erat.
           </p>
         </div>
-        <div className="flex items-center justify-between">
-          <div>
+        <div className="flex items-center flex-wrap justify-between">
+          <div className=" space-y-8">
             <ContenCard />
             <ContenCard />
           </div>
-          <div>
+          <div className=" space-y-8">
             <ContenCard />
             <ContenCard />
           </div>
