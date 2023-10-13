@@ -1,20 +1,13 @@
-import {
-  backIcon,
-  crossIcon,
-  etheIcon,
-  lockIcon,
-  token1,
-} from '@/assets/icons';
-import LpTokens from '@/components/LpTokens';
-import UnLockDate from '@/components/UnLockDate';
-import DropDown from '@/components/common/DropDown';
-import MainTabs from '@/components/common/TopTabs';
-import Footer from '@/components/layout/Footer';
-import Header from '@/components/layout/Header';
+import { backIcon, etheIcon, lockIcon, token1 } from "@/assets/icons";
+import LpTokens from "@/components/LpTokens";
+import UnLockDate from "@/components/UnLockDate";
+import DropDown from "@/components/common/DropDown";
+import MainTabs from "@/components/common/TopTabs";
+import Footer from "@/components/layout/Footer";
+import Header from "@/components/layout/Header";
 
-import Image from 'next/image';
-import Link from 'next/link';
-import React from 'react';
+import Image from "next/image";
+import Link from "next/link";
 
 const LockLiquidity = () => {
   return (
@@ -37,7 +30,7 @@ const LockLiquidity = () => {
 
           <div className="bg-skin-primary relative space-y-5 px-5 py-3 w-full  gap-4 max-w-[576px] rounded-[20px]">
             <Link
-              href={''}
+              href={""}
               className="inline-flex text-t-14 font-medium items-center gap-2"
             >
               <Image src={backIcon} alt="back_icon" />

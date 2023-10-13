@@ -74,3 +74,11 @@
     @apply bg-skin-bg text-skin-white;
   }
 }
+@layer components {
+  .heading1 {
+    @apply text-[29px]  sm:text-[45px] lg:text-t-60 font-bold leading-[30px] sm:leading-[50px] lg:leading-[72px] tracking-[-2%];
+  }
+  .pera {
+    @apply text-base sm:text-lg font-normal text-white text-center;
+  }
+}
