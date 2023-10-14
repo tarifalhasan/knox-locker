@@ -85,3 +85,6 @@
     @apply text-base sm:text-lg font-normal text-white text-center;
   }
 }
+.dropdown:hover .dropdown-menu {
+  display: block;
+}

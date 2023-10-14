@@ -15,6 +15,7 @@ const Home = () => {
       <Benefits />
       <Tokenomics />
       <Team />
+
       <Footer />
     </main>
   );
